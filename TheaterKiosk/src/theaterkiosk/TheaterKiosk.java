@@ -14,7 +14,18 @@ public class TheaterKiosk {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+         Scanner in = new Scanner(System.in);
+        //declaring the variable
+        int age;
+        //asking for thier age
+        System.out.println("What is your age?");
+        age = in.nextInt();
+        //outputs
+        if ((age) >= 21)
+        {
+            System.out.println("You get a wristband!");
+        }
+            
     }
     
 }
